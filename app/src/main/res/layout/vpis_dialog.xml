@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="200dp" >
+
+
+    <Spinner
+        android:id="@+id/numberPicker"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/text_view_id"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:spinnerMode="dropdown" />
+
+
+    <EditText
+        android:id="@+id/enterOpomba"
+        android:layout_width="150dp"
+        android:layout_height="42dp"
+        android:hint="Opomba"
+        android:layout_below="@+id/numberPicker"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/vpisiMeButton"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:text="VPIŠI ME"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:background="#4caf50"
+        android:layout_below="@+id/enterOpomba"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+
+
+    <TextView
+        android:layout_marginTop="22dp"
+        android:textSize="18dp"
+        android:id="@+id/text_view_id"
+        android:text="Izberi mesto na seznamu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textStyle=""
+        android:textColor="#000000"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

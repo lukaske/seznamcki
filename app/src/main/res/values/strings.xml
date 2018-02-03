@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Seznami</string>
+    <string name="println" />
+    <string name="email" />
+    <string name="password" />
+    <string name="title_activity_prikaz">prikaz</string>
+
+</resources>

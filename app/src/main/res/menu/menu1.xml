@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/info"
+        android:title="Info"/>
+
+    <item
+        android:id="@+id/token"
+        android:title="FCM token" />
+    <item
+        android:id="@+id/odjava"
+        android:title="Odjava" />
+    <item
+        android:id="@+id/osvezi"
+        android:title="Osveži"
+        app:showAsAction="ifRoom"
+        />
+
+</menu>
